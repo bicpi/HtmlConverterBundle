@@ -1,6 +1,6 @@
 # Intro to HtmlConverterBundle
 
-This bundle offers Symfony2 integration of the **bicpi/HtmlConverter** library.
+This bundle offers Symfony integration of the **bicpi/HtmlConverter** library.
 
 Please also refer to the [bicpi/HtmlConverter documentation](https://github.com/bicpi/HtmlConverter).
 
@@ -13,7 +13,7 @@ See http://getcomposer.org for details.
 ```json
 "require" :  {
     // ...
-    "bicpi/html-converter-bundle": "1.0.*",
+    "bicpi/html-converter-bundle": "^2.0",
 }
 ```
 
@@ -101,8 +101,8 @@ The above example only register the `LynxConverter` and the `SimpleConverter`.
 
 ## Running unit tests
 
-PHPUnit 3.5 or newer is required. To setup and run tests follow these steps:
+To setup and run tests follow these steps:
 
 1. Go to the root directory of this library
-2. Run: `composer install --dev`
-3. Run: `phpunit`
+2. Run: `composer install`
+3. Run: `./vendor/bin/phpunit`
